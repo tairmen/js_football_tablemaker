@@ -1,0 +1,104 @@
+[
+  {
+    "rank": [ "Uruguay", "Argentina", "United States", "Yugoslavia", "Chile", "Brazil", "France", "Romania", "Paraguay", "Peru", "Belgium", "Bolivia", "Mexico" ],
+    "year": [ "1930 FIFA World Cup" ],
+    "host": [ "Uruguay" ]
+  },
+  {
+    "rank": [ "Uruguay", "Brazil", "Sweden", "Spain", "Yugoslavia", "Switzerland", "Italy", "England", "Chile", "United States", "Paraguay", "Mexico", "Bolivia" ],
+    "year": [ "1950 FIFA World Cup" ],
+    "host": [ "Brazil" ]
+  },
+  {
+    "rank": [ "Brazil", "Sweden", "France", "West Germany", "Wales", "Soviet Union", "Northern Ireland", "Yugoslavia", "Czechoslovakia", "Hungary", "England", "Paraguay", "Argentina", "Scotland", "Austria", "Mexico" ],
+    "year": [ "1958 FIFA World Cup" ],
+    "host": [ "Sweden" ]
+  },
+  {
+    "rank": [ "Italy", "Czechoslovakia", "Germany", "Austria", "Spain", "Hungary", "Switzerland", "Sweden", "Argentina", "France", "Netherlands", "Romania", "Egypt", "Brazil", "Belgium", "United States" ],
+    "year": [ "1934 FIFA World Cup" ],
+    "host": [ "Italy" ]
+  },
+  {
+    "rank": [ "Brazil", "Italy", "West Germany", "Uruguay", "Soviet Union", "Mexico", "Peru", "England", "Sweden", "Belgium", "Romania", "Israel", "Bulgaria", "Morocco", "Czechoslovakia", "El Salvador" ],
+    "year": [ "1970 FIFA World Cup" ],
+    "host": [ "Mexico" ]
+  },
+  {
+    "rank": [ "Italy", "Hungary", "Brazil", "Sweden", "Czechoslovakia", "France", "Switzerland", "Cuba", "Romania", "Germany", "Poland", "Norway", "Belgium", "Netherlands", "Dutch East Indies" ],
+    "year": [ "1938 FIFA World Cup" ],
+    "host": [ "France" ]
+  },
+  {
+    "rank": [ "West Germany", "Hungary", "Austria", "Uruguay", "Switzerland", "Brazil", "England", "Yugoslavia", "Turkey", "Italy", "France", "Belgium", "Mexico", "Czechoslovakia", "Scotland", "South Korea" ],
+    "year": [ "1954 FIFA World Cup" ],
+    "host": [ "Switzerland" ]
+  },
+  {
+    "rank": [ "England", "West Germany", "Portugal", "Soviet Union", "Argentina", "Hungary", "Uruguay", "North Korea", "Italy", "Spain", "Brazil", "Mexico", "Chile", "France", "Bulgaria", "Switzerland" ],
+    "year": [ "1966 FIFA World Cup" ],
+    "host": [ "England" ]
+  },
+  {
+    "rank": [ "Brazil", "Czechoslovakia", "Chile", "Yugoslavia", "Hungary", "Soviet Union", "West Germany", "England", "Italy", "Argentina", "Mexico", "Uruguay", "Spain", "Colombia", "Bulgaria", "Switzerland" ],
+    "year": [ "1962 FIFA World Cup" ],
+    "host": [ "Chile" ]
+  },
+  {
+    "rank": [ "West Germany", "Netherlands", "Poland", "Brazil", "Sweden", "East Germany", "Yugoslavia", "Argentina", "Scotland", "Italy", "Chile", "Bulgaria", "Uruguay", "Australia", "Haiti", "Zaire" ],
+    "year": [ "1974 FIFA World Cup" ],
+    "host": [ "West Germany" ]
+  },
+  {
+    "rank": [ "Argentina", "West Germany", "France", "Belgium", "Brazil", "Mexico", "Spain", "England", "Denmark", "Soviet Union", "Morocco", "Italy", "Paraguay", "Poland", "Bulgaria", "Uruguay", "Portugal", "Hungary", "Scotland", "South Korea", "Northern Ireland", "Algeria", "Iraq", "Canada" ],
+    "year": [ "1986 FIFA World Cup" ],
+    "host": [ "Mexico" ]
+  },
+  {
+    "rank": [ "Brazil", "Italy", "Sweden", "Bulgaria", "Germany", "Romania", "Netherlands", "Spain", "Nigeria", "Argentina", "Belgium", "Saudi Arabia", "Mexico", "United States", "Switzerland", "Republic of Ireland", "Norway", "Russia", "Colombia", "South Korea", "Bolivia", "Cameroon", "Morocco", "Greece" ],
+    "year": [ "1994 FIFA World Cup" ],
+    "host": [ "United States" ]
+  },
+  {
+    "rank": [ "Argentina", "Netherlands", "Brazil", "Italy", "Poland", "West Germany", "Austria", "Peru", "Tunisia", "Spain", "Scotland", "France", "Sweden", "Iran", "Hungary", "Mexico" ],
+    "year": [ "1978 FIFA World Cup" ],
+    "host": [ "Argentina" ]
+  },
+  {
+    "rank": [ "West Germany", "Argentina", "Italy", "England", "Yugoslavia", "Czechoslovakia", "Cameroon", "Republic of Ireland", "Brazil", "Spain", "Belgium", "Romania", "Costa Rica", "Colombia", "Netherlands", "Uruguay", "Soviet Union", "Austria", "Scotland", "Egypt", "Sweden", "South Korea", "United States", "United Arab Emirates" ],
+    "year": [ "1990 FIFA World Cup" ],
+    "host": [ "Italy" ]
+  },
+  {
+    "rank": [ "France", "Brazil", "Croatia", "Netherlands", "Italy", "Argentina", "Germany", "Denmark", "England", "Yugoslavia", "Romania", "Nigeria", "Mexico", "Paraguay", "Norway", "Chile", "Spain", "Morocco", "Belgium", "Iran", "Colombia", "Jamaica", "Austria", "South Africa", "Cameroon", "Tunisia", "Scotland", "Saudi Arabia", "Bulgaria", "South Korea", "Japan", "United States" ],
+    "year": [ "1998 FIFA World Cup" ],
+    "host": [ "France" ]
+  },
+  {
+    "rank": [ "Brazil", "Germany", "Turkey", "South Korea", "Spain", "England", "Senegal", "United States", "Japan", "Denmark", "Mexico", "Republic of Ireland", "Sweden", "Belgium", "Italy", "Paraguay", "South Africa", "Argentina", "Costa Rica", "Cameroon", "Portugal", "Russia", "Croatia", "Ecuador", "Poland", "Uruguay", "Nigeria", "France", "Tunisia", "Slovenia", "China PR", "Saudi Arabia" ],
+    "year": [ "2002 FIFA World Cup" ],
+    "host": [ "South Korea", "Japan" ]
+  },
+  {
+    "rank": [ "Italy", "West Germany", "Poland", "France", "Brazil", "England", "Soviet Union", "Austria", "Northern Ireland", "Belgium", "Argentina", "Spain", "Algeria", "Hungary", "Scotland", "Yugoslavia", "Cameroon", "Honduras", "Czechoslovakia", "Peru", "Kuwait", "Chile", "New Zealand", "El Salvador" ],
+    "year": [ "1982 FIFA World Cup" ],
+    "host": [ "Spain" ]
+  },
+  {
+    "rank": [ "Italy", "France", "Germany", "Portugal", "Brazil", "Argentina", "England", "Ukraine", "Spain", "Switzerland", "Netherlands", "Ecuador", "Ghana", "Sweden", "Mexico", "Australia", "South Korea", "Paraguay", "Ivory Coast", "Czech Republic", "Poland", "Croatia", "Angola", "Tunisia", "Iran", "United States", "Trinidad and Tobago", "Japan", "Saudi Arabia", "Togo", "Costa Rica", "Serbia and Montenegro" ],
+    "year": [ "2006 FIFA World Cup" ],
+    "host": [ "Germany" ]
+  },
+  {
+    "rank": [ "Spain", "Netherlands", "Germany", "Uruguay", "Argentina", "Brazil", "Ghana", "Paraguay", "Japan", "Chile", "Portugal", "United States", "England", "Mexico", "South Korea", "Slovakia", "Ivory Coast", "Slovenia", "Switzerland", "South Africa", "Australia", "New Zealand", "Serbia", "Denmark", "Greece", "Italy", "Nigeria", "Algeria", "France", "Honduras", "Cameroon", "North Korea" ],
+    "year": [ "2010 FIFA World Cup" ],
+    "host": [ "South Africa" ]
+  },
+  {
+    "rank": [ "Germany", "Argentina", "Netherlands", "Brazil", "Colombia", "Belgium", "France", "Costa Rica", "Chile", "Mexico", "Switzerland", "Uruguay", "Greece", "Algeria", "United States", "Nigeria", "Ecuador", "Portugal", "Croatia", "Bosnia and Herzegovina", "Ivory Coast", "Italy", "Spain", "Russia", "Ghana", "England", "South Korea", "Iran", "Japan", "Australia", "Honduras", "Cameroon" ],
+    "year": [ "2014 FIFA World Cup" ],
+    "host": [ "Brazil" ]
+  }
+]
+
+

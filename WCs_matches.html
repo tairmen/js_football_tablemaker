@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/gif" href="img/ico/giphy.gif" />
+    <meta charset="utf-8">
+    <title>World Cups Rank</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/fontawesome-all.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="matches_analiz.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $.getJSON('Fifa.json', {}, function (json) {
+                for (var i = 0; i < json.length; i++) {
+                    $("#accordion").prepend('<div class="card"> <div class="card-header"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse' + i + '" class="card-link collapsed" aria-expanded="false">' + json[i]['year'] + ' World Cup </a> </div><div id="collapse' + i + '" class="collapse" style=""> <div class="card-body"> <div id = "matches"></div> </div> </div> </div>');
+                    var dif_stages = {};
+                    for (var j = 0; j < json[i]['matches'].length; j++) {
+                        var st = json[i]['matches'][j]["stage"];
+                        var st_mas = st.split(' ');
+                        st = st_mas.join('_');
+                        if (st in dif_stages) {
+                            dif_stages[st].push(json[i]["matches"][j]);
+                        }
+                        else {
+                            dif_stages[st] = [json[i]["matches"][j]];
+                        }
+                    }
+                    for (stage in dif_stages) {
+                        if (stage[0] == 'G') {
+                            $("#matches").append('<h4>' + dif_stages[stage][0]["stage"] + '</h4>');
+                            $("#matches").append('<table class="table table-sm table-bordered" style="font-size:15px; margin:5px; color: black" id="' + stage + json[i]["year"] + '_table"></table>');
+                            var Reit = Make_TR(dif_stages[stage]);
+                            var thtml = "";
+                            for (var k = 0; k < Reit.length; k++) {
+                                var imag = "<img src='" + Reit[k].img + "' width='35'/>";
+                                var p = k + 1;
+                                thtml += "<tr><td>" + p + "</td><td>" + imag + "</td><td>" + Reit[k].name + "</td><td>" + Reit[k].games + "</td><td>" + Reit[k].wins + "</td><td>" + Reit[k].draws + "</td><td>" + Reit[k].losses + "</td><td>" + Reit[k].goals_for + "-" + Reit[k].goals_against + "</td><td>" + Reit[k].points + "</td></tr>";
+                            }
+                            $("#" + stage + json[i]["year"] + "_table").append(thtml);
+                            $("#matches").append('<table class="table table-sm" style="font-size:15px; margin:5px; color: black" id="' + stage + json[i]["year"] + '_matches"></table>');
+                        }
+                        else {
+                            $("#matches").append('<h4>' + dif_stages[stage][0]["stage"] + '</h4>');
+                            $("#matches").append('<table class="table table-sm" style="font-size:15px; margin:5px; color: black" id="' + stage + json[i]["year"] + '_matches"></table>');
+                        }
+                        for (var j = 0; j < dif_stages[stage].length; j++) {
+                            var home_img = "<img src='" + dif_stages[stage][j]['home_img'] + "' width='25'/>";
+                            var away_img = "<img src='" + dif_stages[stage][j]['away_img'] + "' width='25'/>";
+                            var table_matches = "<tr><td>" + home_img + "</td><td>" + dif_stages[stage][j]['home'] + "</td><td>" + dif_stages[stage][j]['score'] + "</td><td>" + dif_stages[stage][j]['away'] + "</td><td>" + away_img + "</td></tr>";
+                            $("#" + stage + json[i]["year"] + "_matches").append(table_matches);
+                        }
+                    }
+                    //for (var j = 0; j < json[i]['matches'].length; j++) {
+                    //    var home_img = "<img src='" + json[i]['matches'][j]['home_img'] + "' width='25'/>";
+                    //    var away_img = "<img src='" + json[i]['matches'][j]['away_img'] + "' width='25'/>";
+                    //    var table_matches = "<tr><td>" + home_img + "</td><td>" + json[i]['matches'][j]['home'] + "</td><td>" + json[i]['matches'][j]['score'] + "</td><td>" + json[i]['matches'][j]['away'] + "</td><td>" + away_img + "</td></tr>";
+                    //    $("#matches").append(table_matches);
+                    //}
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="margin-bottom: 30px">
+        <a class="navbar-brand" href="WorldRanking.html">Logo</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="WCs_matches.html">World Cups</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div id="accordion">
+        </div>
+    </div>
+</body>
+</html>
